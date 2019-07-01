@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/d523ffb4d4.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>MyBookList App</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="display-6">
+        <i class="fas fa-tasks text-primary"></i> Reminder<span class="text-primary">List</span></h1>
+    <div class="row">
+      <div class="col">
+        <form id="reminder-form">
+            <div class="form-group">
+              <label for="title">Reminder</label>
+              <input type="text" id="title" class="form-control" value="">
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                  <label for="date">Date</label>
+                  <input type="date" id="date" class="form-control">
+                </div>
+        
+                <div class="form-group col">
+                  <label for="note">Note</label>
+                  <input type="text" id="note" class="form-control"></input>
+                </div>
+            </div>
+            <input type="submit" value="Add Reminder" class="btn btn-block">
+          </form>
+      </div>
+    
+    <div class="col"> 
+      <table class="table table-striped mt-4">
+          <thead class="table-head">
+            <tr>
+              <th>Reminder</th>
+              <th>Date</th>
+              <th>Note</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="reminder-list"></tbody>
+        </table>
+    </div>
+  </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

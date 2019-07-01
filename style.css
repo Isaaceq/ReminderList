@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2A484e;
+  color: #DDEFE3;
+}
+
+.text-primary {
+  color: #ce4a50 !important;
+}
+
+.btn {
+  color: #DDEFE3;
+  background-color: #ce4a50;
+}
+
+.btn:hover {
+  color: #DDEFE3;  
+}
+
+.table-head {
+  color: #DDEFE3;
+  text-align: center;
+  background-color: #377375;
+}
+
+#reminder-list {
+  color: #DDEFE3;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #A8D8CD;
+  color: #2A484e;
+}
+
+.alert-danger {
+  background-color: #ce4a50;
+  color: #DDEFE3;
+}
